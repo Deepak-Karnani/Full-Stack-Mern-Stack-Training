@@ -1,12 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prison Home Page</title>
+    <style>
+      .navbar {
+        margin: -10px;
+      }
+
+      .navbarpro {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0;
+        overflow: hidden;
+        background-color: #393e46;
+        position: sticky;
+        height: 60px;
+      }
+
+      .home,
+      .about,
+      .product,
+      .service,
+      .contactus {
+        float: left;
+        margin-top: 5px;
+      }
+
+      .home a,
+      .about a,
+      .product a,
+      .service a,
+      .contactus a {
+        font-size: 20px;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      ,
+      .signin {
+        text-align: center;
+      }
+
+      .signin .btn1 {
+        margin-top: 15px;
+        margin-left: 900px;
+        font-size: 18px;
+        background-color: ;
+        border: 2px solid white;
+        width: 100px;
+        border-radius: 5px;
+        font-weight: bolder;
+      }
+
+      .signin .btn1:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        border: 2px solid black;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }
+
+      .homedescribe {
+        display: inline-block;
+        background-image: url(./Images/pen1.jpg);
+        margin: -7px;
+        padding: 10px;
+        height: auto;
+        background-size: 1995px 500px;
+        background-repeat: no-repeat;
+      }
+
+      .hd {
+        display: block;
+        font-style: italic;
+        font-size: larger;
+        font-weight: bolder;
+        padding-right: 100px;
+        margin-right: 800px;
+        margin-top: 35px;
+      }
+
+      .productdescribe {
+        background-image: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+        display: inline-block;
+        height: 600px;
+        width: 1520px;
+        position: relative;
+        top: 5px;
+        left: -10px;
+      }
+
+      .contactusdescribe {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+
+      div.gallery {
+        margin-right: 40px;
+        margin-top: 60px;
+        border: 1px solid white;
+        float: left;
+        width: 252px;
+        height: 480px;
+      }
+      .title {
+        color: rgb(58, 57, 2);
+        text-align: center;
+        font-weight: bolder;
+        text-decoration: underline;
+        margin-top: 0px;
+      }
+      .btn {
+        background-color: rgb(221, 64, 221);
+        width: 150px;
+        height: 30px;
+        margin-left: 55px;
+      }
+      .btn a {
+        color: whitesmoke;
+        text-decoration: none;
+      }
+      .btn:hover {
+        text-decoration: underline;
+        background-color: rgb(255, 0, 255);
+      }
+      .btn a:hover {
+        color: black;
+        text-decoration: underline;
+        font-weight: bold;
+      }
+
+      div.gallery:hover {
+        border: 1px solid #777;
+      }
+
+      div.gallery img {
+        width: 252px;
+        height: 230px;
+      }
+
+      div.desc {
+        margin-top: 0px;
+        color: black;
+        font-weight: bolder;
+      }
+      input[type="text"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      input[type="submit"] {
+        background-color: #04aa6d;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <ul class="navbarpro">
+          <li class="home"><a href="# homedescribe">Home</a></li>
+          <li class="about"><a href="# aboutdescribe">About</a></li>
+          <li class="product"><a href="# productdescribe">Products</a></li>
+          <li class="service"><a href="#servicedescribe">Service</a></li>
+          <li class="contactus"><a href="# contactusdescribe">Contact Us</a></li>
+          <li class="signin"><button class="btn1">Sign in</button></li>
+        </ul>
+      </div>
+    </header>
+    <div class="homedescribe">
+      <div id="home">
+        <p class="hd">
+          A pen is a common writing instrument used to apply ink to a surface,
+          usually paper, for writing or drawing. Historically, reed pens, quill
+          pens, and dip pens were used, with a nib dipped in ink. ... Modern
+          types include ballpoint, rollerball, fountain and felt or ceramic tip
+          pens.
+        </p>
+        <p class="hd">
+          The pen may be mightier than the sword, but when Jewish-Hungarian
+          journalist László Bíró invented the ballpoint pen in the 1930s clichéd
+          sayings were probably the last thing on his mind.
+        </p>
+        <p class="hd">
+          It has a mechanism by which ink is made to flow through the tip of the
+          writing instrument in the way it is scribbled onto the surface. Pen is
+          the most important thing which a literate person possess. It is the
+          device which makes possible to note down our thoughts in a piece of
+          paper
+        </p>
+        <p class="hd">
+          There are 5 types of pen in market they are "Ballpoint Pen","Gel
+          pen","roller pen","Fountain Pen","Felt-tip Pen".
+        </p>
+      </div>
+    </div>
+    <div class="productdescribe">
+      <div class="gallery" style="margin-left: 35px">
+        <a target="_blank" href="">
+          <img
+            src="./Images/img1.jpg"
+            alt="Cinque Terre"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">
+          <h2 class="title">Fountain pen</h2>
+          Fountain pen Fuelled by water-based ink, which is most often housed in
+          disposable cartridges, this type of pen creates a classic look and can
+          enhance handwriting.
+        </div>
+        <button class="btn" style="margin-top: 70px">
+          <a href="https://en.wikipedia.org/wiki/Fountain_pen">Know More</a>
+        </button>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="">
+          <img src="./Images/img2.jpg" alt="Forest" width="600" height="400" />
+        </a>
+        <div class="desc">
+          <h2 class="title">Ballpoint pen</h2>
+          The ballpoint pen was revolutionary in the stationery world, created
+          to eliminate constant ink smudges. The rolling motion of a small
+          sphere makes this pen special, dispensing an oil-based ink.
+        </div>
+        <button class="btn" style="margin-top: 52px">
+          <a href="https://en.wikipedia.org/wiki/Ballpoint_pen">Know More</a>
+        </button>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="img_lights.jpg">
+          <img
+            src="./Images/img3.jpg"
+            alt="Northern Lights"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">
+          <h2 class="title">Rollerball pen</h2>
+          Rollerball pens use the same formula as a ballpoint to dispense ink.
+          The difference is with the ink itself, using a water-based liquid ink
+          rather than oil.
+        </div>
+        <button class="btn" style="margin-top: 70px">
+          <a href="https://en.wikipedia.org/wiki/Rollerball_pen">Know More</a>
+        </button>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="img_mountains.jpg">
+          <img
+            src="./Images/img4.png"
+            alt="Mountains"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">
+          <h2 class="title">Felt-tip Pen</h2>
+          A marker pen, fine liner, marking pen, felt-tip pen, flow marker, sign
+          pen (in South Korea), vivid (in New Zealand), texta (in Australia),
+          sketch pen (in South Asia) or koki (in South Africa), is a pen which
+          has its own ink source and a tip made of porous, pressed fibers such
+          as felt.
+        </div>
+        <button class="btn" style="margin-top: 15px">
+          <a href="https://en.wikipedia.org/wiki/Marker_pen">Know More</a>
+        </button>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="img_mountains.jpg">
+          <img
+            src="./Images/gel-pen-sonic-hauser-500x500.jpg"
+            alt="Mountains"
+            width="600"
+            height="400"
+          />
+        </a>
+        <div class="desc">
+          <h class="title">Gel Pen</h2>
+          A gel pen uses ink in which pigment is suspended in a water-based
+          gel.[1] Because the ink is thick and opaque, it shows up more clearly
+          on slick surfaces than the typical inks used in ballpoint or felt tip
+          pens. Gel pens can be used for many types of writing and illustration.
+        </div>
+        <button class="btn" style="margin-top: 15px">
+          <a href="https://en.wikipedia.org/wiki/Gel_pen">Know More</a>
+        </button>
+      </div>
+    </div>
+    <div class="contactusdescribe">
+      <h1 style="text-decoration: underline; ">ContactUs</h1>
+      <form action="action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="india">India</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="Other">Other</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
 </html>

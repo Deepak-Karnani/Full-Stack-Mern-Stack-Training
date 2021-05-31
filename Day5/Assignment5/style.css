@@ -5,7 +5,7 @@ body {
     font-size: 14px;
     box-sizing: border-box;
 }
-.logo {
+#logo {
   width: 48px;
   height: 48px;
   display: block;

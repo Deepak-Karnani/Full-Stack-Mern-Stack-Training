@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Deepak karnani</h1>
+    <script>
+      function factorial(x) {
+        if (x === 0) {
+          return 1;
+        }
+        return x * factorial(x - 1);
+      }
+      console.log(factorial(5));
+    </script>
+
+    <script>
+      //Default parameter
+      function multiply(a, b = 1) {
+        return a * b;
+      }
+      console.log(multiply(5, 2));
+      console.log(multiply(5));
+
+      // Without arguments
+      function add() {
+        var a = 1;
+        var b = 2;
+        return a + b;
+      }
+      console.log(add());
+
+      // without return type in object
+      var person = {
+        firstName: "Divyaan",
+        lastName: "Karnani",
+        fullName: function () {
+          console.log(this.firstName + " " + this.lastName);
+        },
+      };
+      person.fullName();
+    </script>
+    <script></script>
+
+    <script>
+      //with return type in object
+      var person = {
+        firstName: "Deepak",
+        lastName: "Karnani",
+        fullName: function () {
+          return this.firstName + " " + this.lastName;
+        },
+      };
+      console.log(person.fullName());
+    </script>
+
+    <script></script>
+  </body>
+</html>

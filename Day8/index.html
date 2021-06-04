@@ -34,6 +34,16 @@
       }
       console.log(add());
 
+      //with return type in object
+      var person = {
+        firstName: "Deepak",
+        lastName: "Karnani",
+        fullName: function () {
+          return this.firstName + " " + this.lastName;
+        },
+      };
+      console.log(person.fullName());
+
       // without return type in object
       var person = {
         firstName: "Divyaan",
@@ -44,20 +54,5 @@
       };
       person.fullName();
     </script>
-    <script></script>
-
-    <script>
-      //with return type in object
-      var person = {
-        firstName: "Deepak",
-        lastName: "Karnani",
-        fullName: function () {
-          return this.firstName + " " + this.lastName;
-        },
-      };
-      console.log(person.fullName());
-    </script>
-
-    <script></script>
   </body>
 </html>

@@ -15,7 +15,7 @@ async function getData() {
   }
 }
 const server = http.createServer((req, res) => {
-    for (let index = 0; index < 10; index++) {
+    for (let index = 1; index < 10; index++) {
     axios
       .get("https://pokeapi.co/api/v2/pokemon/" + index )
       .then((response) => {
@@ -25,7 +25,6 @@ const server = http.createServer((req, res) => {
         res.end(JSON.stringify(response.data));
       })
       .catch((err) => console.log(err));
-      console.log('&nbsp &nbsp &nbsp &nbsp &nbsp')
     } 
       
 });

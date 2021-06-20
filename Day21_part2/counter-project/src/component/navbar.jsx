@@ -4,9 +4,9 @@ class Navbar extends Component {
   state = {};
   render() {
     return (
-      <nav className="navbar navbar-light bg-light">
+      <nav style={{backgroundColor:"lightblue"}} className="navbar navbar-light bg-light">
         <a className="navbar-brand">Navbar</a>
-        <span>{this.props.totalCounters}</span>
+        <button className="btn btn-primary btn-sm-2">{this.props.totalCounters}</button>
       </nav>
     );
   }

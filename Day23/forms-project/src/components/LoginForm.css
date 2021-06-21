@@ -1,0 +1,14 @@
+*{
+ background: linear-gradient(to right,#00c3ff
+ ,#ffff1c);
+}
+h1{
+    text-align: center;
+}
+
+.container{
+    margin: 50px;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 2px black;
+}

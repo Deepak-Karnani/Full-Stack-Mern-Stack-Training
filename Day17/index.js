@@ -48,7 +48,7 @@ app.use((error, req, res, next) => {
 //   res.send({page: "Login", message: "Please submit your credentials!!"});
 // });
 
-mongoose.connect('mongodb+srv://Deepk:Deepak0803@mern-stack.gqne9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+mongoose.connect('_______________________________________________________',
   {
     useUnifiedTopology: true,
     useNewUrlParser: true
